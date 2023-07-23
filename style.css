@@ -1,0 +1,34 @@
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 16em;
+
+
+}
+
+.container li {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(56, 165, 208);
+    color: aliceblue;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.container li a {
+    color: white;
+}
+.main-container{
+    margin-left: 19em;
+} 
